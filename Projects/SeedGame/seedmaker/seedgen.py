@@ -1,6 +1,5 @@
 import random
 
-
 def gen_seed(base, length):
     if base == 10:
         return gen_seed_10(length)  # For generating purely numerical seeds
